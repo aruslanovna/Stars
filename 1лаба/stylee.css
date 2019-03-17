@@ -1,0 +1,220 @@
+*{
+box-sizing: border-box; 
+margin-top: 0px;
+    margin-bottom:0px;
+    padding:0;
+    margin-left: auto;
+        margin-right: auto;
+}
+body{
+  height: 100%;
+  margin: 0;
+    color:#666; 
+}
+
+.video-responsive { 
+   position: relative; 
+   padding-bottom: 46.25%;  
+   overflow:hidden; 
+} 
+
+  .video-responsive iframe, 
+  .video-responsive object, 
+  .video-responsive embed {
+   position: absolute; 
+   top: 0; 
+   left: 0; 
+   width: 100%;
+   height: 100%; 
+  }  
+
+.top_wrapper{
+    background-repeat: repeat;
+    background-position: 50% center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.top_vid{
+  height:65%;
+  width: 70%;
+  padding:40px;
+ background: rgba(255, 255, 255, 0.8);
+}
+.planet{
+  margin:10px;
+}
+.container{margin:100px 100px 0px 100px;
+  background: rgba(255, 255, 255, 0.8);
+  padding:10px;
+}
+.container2{
+  width:100%;
+  margin-top: 300px;
+ 
+  background: rgba(17, 19, 51, 0.3);
+  padding:10px;
+}
+.cards {
+  width:calc(95%); 
+  height:auto;
+  margin: 10px 10px 10px 20px;
+}
+.card {
+float:left;
+width: 500px;
+height:600px;
+margin:20px 20px 30px 20px;
+}
+.cards2 {
+float:center;
+padding: 20px;
+}
+.card2 {
+float:left;
+width: 100%;
+height:auto;
+
+}
+.body{
+  margin: 20px
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.text{
+  color:white;
+  font-size: 70px
+}
+   .right {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 7px 7px 7px; /* Отступы вокруг картинки */
+   }
+.transform_text{ 
+ margin:10px;
+}
+header{
+  text-align: center
+}
+.img_block .content_block { 
+
+    background:#f6f6f6;
+    text-align:center;
+    min-height:250px;
+
+}
+.img_block a.content_block {
+    display:block;
+    position: relative;
+    overflow:hidden;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+    cursor:pointer; 
+}
+
+
+.img_block a.content_block span {
+  min-width: 180px;
+    background: rgba(17, 19, 51, 0.7);
+   width: auto;
+    height:0px;
+    text-transform:uppercase;
+    font-size:13px;
+    font-weight: bold;
+    line-height:auto;
+    position:absolute;
+    display:block;
+    bottom:0px;
+    z-index: 9910;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+.img_block a.content_block:hover span {
+    bottom:0;
+    height:60px;
+
+    color: #ffffff;
+}
+.slide{
+  width:520px;
+  height:450px;
+}
+.slide2{
+  width:auto;
+  height:350px;
+}
+.slide3{
+  width:300px;
+  height:250px;
+  margin-left: 20px
+}
+.a{color:black;}
+
+
+#search-block-form{
+  width:250px;
+  height:28px;
+  border:#c9c9c9 solid 1px;
+  background:url(images/searchBg.png) left top repeat-x;
+  box-shadow:0px 1px 0px rgba(255,255,255,0.1);
+  }
+.focus-active{
+  border-color:#aaa !important;
+  background:#fff !important;
+  }
+#search-block-form input{
+  padding:0;
+  margin:0;
+  display:block;
+  border:none;
+  outline:none;
+  background:none;
+  width:100%;
+  height:100%;
+  }
+#search-block-form .form-actions{
+  width:58px;
+  height:28px;
+  float:right;
+  border:#a8b5b9 solid 1px;
+  margin:-1px -1px 0 0;
+  background:url(images/submit.png) left top repeat;  
+  }
+#search-block-form .form-actions input:hover{
+  cursor:pointer;
+  }
+#search-block-form .form-actions input{
+  overflow:hidden;
+  font:11px/16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color:#a8b5b9;
+  }
+#search-block-form .form-item{
+  width:157px;
+  padding:0 0 0 33px;
+  float:left;
+  height:28px;
+  background:url(images/searchIcon.png) 3px 2px no-repeat;
+  }
+#search-block-form .form-item input{
+  font:13px/16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color:#222;
+  height:auto !important;
+  padding:6px 0;
+  }
+.placeholder{color:#cbcbcb !important;}

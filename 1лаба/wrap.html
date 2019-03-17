@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Юный астроном</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+ <link rel="stylesheet" href="stylee.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+<script>
+(function($) {
+$(function() {
+
+  $('#up').click(function() {
+    $('body,html').animate({scrollTop:0},1000);
+    return false;
+  })
+
+})
+})(jQuery)
+</script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script>
+    $('a[data-toggle="pill"]').on('hidden.bs.tab', function (e) {
+      console.log(e.target); // вкладка, которая стала активной
+      console.log(e.relatedTarget); // предыдущая активная вкладка
+    })
+    </script>
+    <script src="jquery.placeholder.min.js"></script>
+<script>
+/*  Скопируйте код ниже в ваш js файл. (JavaScript). */
+
+$(document).ready(function(e) {
+  $("input[placeholder]").placeholder();
+  $("#search-block-form .form-item input").focus(function(){
+    $("#search-block-form").addClass("focus-active");
+      })
+  .blur(function(){
+    $("#search-block-form").removeClass("focus-active");
+  });
+});
+
+/* Конец */
+</script>
+</head>
+
+<body>
+
+
+ <div class="row"  style=" height:100%; width:100%">
+
+
+  <div class="top_wrapper  " style="background-image: url('night.png'); height:100%; width:100%; margin-right: -15px;">
+<nav class="navbar navbar-default" role="navigation" style="margin-bottom: -10px; z-index:12; margin-right: 0px;width:100%;margin-left:0px; position: fixed " class="top_vid">
+    
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Навигация</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Юный астроном</a>
+      </div>
+ <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  <ul  class="nav navbar-nav">
+    <li><a href="site.html" >Главная</a></li>
+    <li ><a href="stars.html">Созвездия</a></li>
+    <li><a href="people.html">Астрономы</a></li>
+    <li><a href="equipment.html">История телескопов</a></li>
+    <li class="active"><a href="wrap.html">Черные дыры</a></li>
+  
+  </ul>
+
+<select name="translate"> 
+  <option disabled>Выберите язык</option>
+   <option value="RU">Русский</option>
+  
+  <option value="UA">Украинский</option>
+
+     
+</select>
+<form action="" method="post" id="search-block-form" class="right">
+      <div class="form-item">
+        <input type="text" name="" value="" size="15" maxlength="128" placeholder="Найти...">
+      </div>
+      <div class="form-actions">
+        <input type="submit" id="edit-submit" name="op" value="Поиск" class="form-submit">
+      </div>
+</form>
+<button class="button"  onclick="Translate(this.form)"> Перевести</button></p>            
+
+</div>
+
+</nav>
+    <div class="container2" style="margin-top:50px;margin-bottom: 20px">
+<div class="text ">
+  <p class="text-center text-uppercase "> 10 фактов о черных дырах </p></div></div>
+<nav class="container" style="color:black; margin-top: 40px">
+
+      <div class="cards2">
+        <div class="card2">
+    <header>
+      <h2>1. Первое предположение о существовании чёрных дыр сделал Джон Митчелл</h2>
+    </header>
+     <a rel="simplebox" href="wrap1.jpg" class="bislide">
+<img   src="wrap1.jpg" class="slide3 right" class="slide" ></a>
+    
+    <div class="body">
+    <p>Большинство полагает, что открытие существования чёрных дыр — заслуга Альберта Эйнштейна.
+
+Однако Эйнштейн закончил свою теорию к 1916-му году, а Джон Митчелл обдумывал эту идею ещё в далёком 1783-м. Она не нашла применения потому, что этот английский священник просто не знал, что с ней делать.
+<br>
+Митчелл начал разрабатывать теорию чёрных дыр, когда принял идею Ньютона, согласно которой свет состоит из маленьких материальных частиц, называемых фотонами. Он размышлял о движении этих световых частиц и пришёл к выводу, что оно зависит от гравитационного поля звезды, которую они покидают. Он пытался понять, что произойдёт с этими частицами, если гравитационное поле будет слишком большим, чтобы свет мог его покинуть.<br>
+
+Митчелл также является основателем современной сейсмологии. Он предположил, что землетрясения распространяются в земле подобно волнам. </p>
+    </div>
+
+ </div>
+<div class="card2">
+    <header>
+      <h2>2. Они действительно притягивают пространство вокруг себя</h2>
+    </header>
+    
+   <a rel="simplebox" href="wrap2.jpg" class="bislide">
+<img   src="wrap2.jpg" class="slide3 right " class="slide" ></a>
+    <div class="body">
+    <p>Попробуйте представить космос в виде резинового листа. Представьте, что планеты — это шарики, которые давят на этот лист. Он деформируется и больше не имеет прямых линий. Это создаёт гравитационное поле и объясняет, почему планеты движутся вокруг звёзд.<br>
+
+Если масса объекта возрастёт, то деформация пространства может стать ещё больше. Эти дополнительные возмущения увеличивают силу притяжения и ускоряют движение по орбите, заставляя спутники двигаться вокруг объектов всё быстрее и быстрее.
+<br>
+Например, Меркурий движется вокруг солнца со скоростью 48 км/с, в то время как орбитальная скорость звёзд неподалёку от чёрной дыры в центре нашей галактики достигает 4800 км/с.
+<br>
+Если сила притяжения достаточно сильна, то спутник сталкивается с большим по размеру объектом. 
+</p>
+    </div>
+
+ </div>
+ <div class="card2">
+    <header>
+      <h2>3. Не все чёрные дыры одинаковы</h2>
+    </header>
+    
+    <a rel="simplebox" href="wrap3.jpg" class="bislide">
+<img   src="wrap3.jpg" class="slide3 right" class="slide" ></a>
+    <div class="body">
+    <p>Мы обычно думаем, что всё чёрные дыры по сути одно и то же. Однако астрономы недавно выяснили, что их можно разделить на несколько разновидностей.
+<br>
+Есть вращающиеся чёрные дыры, черные дыры с электрическим зарядом и чёрные дыры, включающие черты первых двух. Обычные чёрные дыры возникают путём поглощения материи, а вращающаяся чёрная дыра образуется путём слияния двух таких дыр.
+<br>
+Эти чёрные дыры расходуют намного больше энергии из-за возросшего возмущения пространства. Заряженная вращающаяся чёрная дыра действует как ускоритель частиц.
+<br>
+Чёрная дыра, названная GRS 1915+105, находится на расстоянии около 35 тысяч световых лет от Земли. Она крутится со скоростью 950 оборотов в секунду.
+</p>
+    </div>
+  </div>
+
+<div class="card2">
+    <header>
+      <h2>4. Их плотность невероятно высока</h2>
+    </header>
+    
+   <a rel="simplebox" href="wrap4.jpg" class="bislide">
+<img   src="wrap4.jpg" class="slide3 right" class="slide" ></a>
+    <div class="body">
+    <p>Чёрным дырам необходимо быть чрезмерно массивными при невероятно маленьких размерах, чтобы создавать достаточно большую силу притяжения для сдерживания света. К примеру, если сделать чёрную дыру массой равной массе Земли, то получится шарик с диаметром всего 9 мм.
+<br>
+Чёрная дыра, масса которой в 4 миллиона раз превышает массу Солнца, может уместиться в пространство между Меркурием и Солнцем. Чёрные дыры в центре галактик могут иметь массу, превышающую массу Солнца от 10 до 30 миллионов раз.
+<br>
+Такая большая масса на таком маленьком пространстве означает, что чёрные дыры имеют невероятно большую плотность и силы, действующие внутри них, также очень сильны.
+
+</p>
+    </div> </div>
+    <div class="card2">
+    <header>
+      <h2>5. Они достаточно шумные</h2>
+    </header>
+    
+   <a rel="simplebox" href="wrap5.jpg" class="bislide">
+<img   src="wrap5.jpg" class="slide3 right" class="slide" ></a>
+    <div class="body">
+    <p>Всё, что окружает чёрную дыру, затягивается в эту бездну и одновременно с этим ускоряется. Горизонт событий (граница области пространства-времени, начиная с которой информация не может достичь наблюдателя из-за конечности скорости света; прим. mixstuff) разгоняет частицы почти до скорости света.
+<br>
+Во время пересечения материей центра горизонта событий возникает булькающий звук. Этот звук является преобразованием энергии движения в звуковые волны.
+<br>
+В 2003-м году астрономы с помощью космической рентгеновской обсерватории Чандра зафиксировали звуковые волны, исходящие от сверхмассивной чёрной дыры, находящейся на расстоянии 250 миллионов световых лет.
+ 
+</p>
+    </div> </div>
+    <div class="card2">
+    <header>
+      <h2>6. Ничто не может ускользнуть от их притяжения</h2>
+    </header>
+    
+    <a rel="simplebox" href="wrap6.jpg" class="bislide">
+<img   src="wrap6.jpg" class="slide3 right" class="slide" ></a>
+    <div class="body">
+    <p>Когда что-либо (это может быть и планета, и звезда, и галактика, и частица света) проходит достаточно близко от чёрной дыры, то этот объект неизбежно будет захвачен её гравитационным полем. Если что-то ещё воздействующее на объект, скажем, на ракету, сильнее силы притяжения чёрной дыры, то он сможет избежать поглощения.
+<br>
+До тех пор, конечно, пока оно не достигнет горизонта событий. Точки, после которой покинуть чёрную дыру уже невозможно. Для того, чтобы покинуть горизонт событий, необходимо развить скорость, большую чем скорость света, а это невозможно.
+<br>
+Это тёмная сторона чёрной дыры — если уж свет не может её покинуть, то мы никогда не сможем заглянуть внутрь.
+<br>
+Учёные полагают, что даже маленькая чёрная дыра разорвёт вас на куски задолго до того, как вы проскочите через горизонт событий. Сила притяжения тем больше, чем вы ближе к планете, звезде или чёрной дыре. Если вы летите к чёрной дыре вперёд ногами, то сила притяжения в ваших ступнях будет намного больше, чем в голове. Это и разорвёт вас на части.
+</p>
+    </div> </div>
+    <div class="card2">
+    <header>
+      <h2>7. Они замедляют время</h2>
+    </header>
+    
+  <a rel="simplebox" href="wrap7.jpg" class="bislide">
+<img   src="wrap7.jpg" class="slide3 right" class="slide" ></a>
+    <div class="body">
+    <p>Свет огибает горизонт событий, но, в конечном счете, он захватывается в небытие, когда проникает внутрь.
+<br>
+Можно описать то, что произойдёт с часами, если они попадут внутрь чёрной дыры и уцелеют там. По мере приближения к горизонту событий, они будут замедляться и в конце концов полностью остановятся.
+<br>
+Эта заморозка времени происходит вследствие гравитационного замедления времени, которое объясняется теорией относительности Эйнштейна. Сила притяжения в чёрной дыре настолько велика, что она может замедлять время. С точки зрения часов, всё идёт нормально. Часы пропадут из поля зрения, в то время как свет от них будет ещё растягиваться. Свет будет становиться всё более красным, длина волны будет увеличиваться и в итоге он выйдет за пределы видимого спектра.
+
+</p>
+    </div>
+     </div>
+    <div class="card2">
+    <header>
+      <h2>8. Они являются совершенными производителями энергии</h2>
+    </header>
+    
+    <a rel="simplebox" href="wrap8.jpg" class="bislide">
+<img   src="wrap8.jpg" class="slide3 right" class="slide" ></a>
+    <div class="body">
+    <p>Чёрные дыры засасывают всю окружающую массу. Внутри чёрной дыры всё это прессуется настолько сильно, что пространство между отдельными элементами атомов сжимается, и в результате образуются субатомные частицы, способные вылетать наружу. Эти частицы вырываются из чёрной дыры благодаря линиям магнитного поля, пересекающим горизонт событий.
+<br>
+Выделение частиц создаёт энергию довольно эффективным способом. Преобразование массы в энергию этим путём в 50 раз намного более эффективно, нежели ядерный синтез.
+</p>
+    </div> </div>
+
+    <div class="card2">
+    <header>
+      <h2>9. Они ограничивают количество звёзд</h2>
+    </header>
+    
+    <a rel="simplebox" href="wrap9.jpg" class="bislide">
+<img   src="wrap9.jpg" class="slide3 right" class="slide" ></a>
+    <div class="body">
+    <p>Однажды известный астрофизик, Карл Саган, сказал: во Вселенной больше звёзд, чем песчинок на пляжах всего мира. Но похоже, что во Вселенной всего 1022 звезды.
+<br>
+Это число определяется количеством чёрных дыр. Потоки частиц, выпускаемые чёрными дырами, расширяются до пузырей, которые распространяются сквозь области формирования звёзд. Области формирования звёзд — это участки газовых облаков, которые могут охлаждаться и образовывать звёзды. Потоки частиц нагревают эти газовые облака и предотвращают появление звёзд.
+<br>
+Это означает, что существует сбалансированное соотношение между количеством звёзд и активностью чёрных дыр. Очень большое количество звёзд расположенных в галактике сделает её слишком горячей и взрывоопасной для развития жизни, однако слишком маленькое количество звёзд также не способствует возникновению жизни.
+
+</p>
+    </div>
+</div>
+<div class="card2">
+    <header>
+      <h2>10. Мы состоим из одного и того же материала</h2>
+    </header>
+    
+    <a rel="simplebox" href="wrap10.jpg" class="bislide">
+<img   src="wrap10.jpg" class="slide3 right" class="slide" ></a>
+    <div class="body">
+    <p>Некоторые исследователи полагают, что чёрные дыры помогут нам при создании новых элементов, потому что они разбивают материю на субатомные частицы.
+<br>
+Эти частицы участвуют в образовании звёзд, что в свою очередь ведёт к созданию элементов тяжелее гелия, таких как железо и углерод, необходимых для образования твёрдых планет и жизни. Эти элементы входят в состав всего, что имеет массу, а значит и нас с вами.
+
+</p>
+    </div>
+</div>
+  </div>
+
+  
+
+</nav>
+
+<a href="#" id="up" style="color:black">
+<button type="button"  class="btn btn-default btn-lg " style="margin-bottom: 30px; margin-left: 45%; margin-right: 50%; margin-top: 20px">
+
+            
+            <span class="glyphicon glyphicon-chevron-up"  > </span> Вверх 
+           <script type="text/javascript"></script>
+</button>
+</a>
+
+
+
+<div class="footer-copyright text-center py-3" style="color:white">© 2018 Христова Анастасия ПЗПИ-17-4 
+Человеко-машинное взаимодействие
+
+</div>
+</div>
+</div>
+<script type="text/javascript">
+(function(){
+  var boxes=[],els,i,l;
+  if(document.querySelectorAll){
+    els=document.querySelectorAll('a[rel=simplebox]');  
+
+    Box.getStyles('simplebox_css','simplebox.css');
+    Box.getScripts('simplebox_js','simplebox.js',function(){
+        simplebox.init();
+        for(i=0,l=els.length;i<l;++i)
+          simplebox.start(els[i]);
+        simplebox.start('a[rel=simplebox_group]');      
+        });
+  }
+  
+
+})();
+</script>
+</body>
+</html> 

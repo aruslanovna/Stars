@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Юный астроном</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="stylee.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript">
+ 
+$(document).ready(function(){
+  $("#menu").on("click","a", function (event) {
+    //отменяем стандартную обработку нажатия по ссылке
+    event.preventDefault();
+
+    //забираем идентификатор бока с атрибута href
+    var id  = $(this).attr('href'),
+
+    //узнаем высоту от начала страницы до блока на который ссылается якорь
+      top = $(id).offset().top;
+    
+    //анимируем переход на расстояние - top за 1500 мс
+    $('body,html').animate({scrollTop: top}, 1500);
+  });
+});
+
+</script>
+
+<script>
+(function($) {
+$(function() {
+
+  $('#up').click(function() {
+    $('body,html').animate({scrollTop:0},1000);
+    return false;
+  })
+
+})
+})(jQuery)
+</script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script>
+    $('a[data-toggle="pill"]').on('hidden.bs.tab', function (e) {
+      console.log(e.target); // вкладка, которая стала активной
+      console.log(e.relatedTarget); // предыдущая активная вкладка
+    })
+    </script>
+</head>
+
+<body>
+
+
+ <div class="row"  style=" height:100%; width:100%">
+
+	<div class="top_wrapper  " style="background-image: url('night.png'); height:100%; width:100%; margin-right: -15px;">
+<nav class="navbar navbar-default" role="navigation" style="margin-bottom: -10px; margin-right: 0px;width:100%;margin-left:0px;z-index:12; position: fixed " >
+    
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Навигация</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Юный астроном</a>
+      </div>
+ <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  <ul  class="nav navbar-nav">
+    <li class="active"><a href="site.html" >Главная <span class="glyphicon glyphicon-home"></span></a></li>
+    <li><a href="#sun">Планеты Солнечной системы</a></li>
+    <li><a href="stars.html">Созвездия</a></li>
+    <li><a href="people.html">Астрономы</a></li>
+    <li><a href="equipment.html">История телескопов</a></li>
+    <li><a href="wrap.html">Черные дыры</a></li>
+  </ul>
+
+<form action="" method="post" id="search-block-form" class="right">
+      <div class="form-item">
+        <input type="text" name="" value="" size="15" maxlength="128" placeholder="Найти...">
+      </div>
+      <div class="form-actions">
+        <input type="submit" id="edit-submit" name="op" value="Поиск" class="form-submit">
+      </div>
+</form>
+</p>            
+
+</div>
+
+</nav>
+   <nav id="menu">
+ 
+		
+      <img  src="fatmoon.png" style="margin-left: 650px; width:600px; height:350px" >
+      <img class="itb_docom_image" src="people.png"  style="margin-top: -300px; " >  
+
+
+ <div id="sun" ><div class="container2"  style="margin-top:40px;margin-bottom: 20px; width:1250px;margin-left: 40px; padding-top: 60px">
+<div class="text " >
+  <p class="text-center text-uppercase ">
+    <a  href="#"></a>
+  Планеты Солнечной системы:
+  </p>
+</div></div></div></nav>
+
+       <!-- <a href="#first" style="color:black">  <button type="button"  class="btn btn-default btn-lg " style="margin-bottom: 70px; margin-left: 45%; margin-right: 50%;">
+
+           <span class="glyphicon glyphicon-chevron-down"  > </span> 
+          Промотать ниже
+          </button></a> -->
+          <div style="padding:30px;" >
+					<section  >
+  
+<div class="top_vid " style="margin-top: -20px;margin-bottom: -10px; padding-top: 10px"> 
+ <div class="center"> <h2>Сравнение размеров планет Солнечной системы</h2> </div>
+   <div class="video-responsive">
+
+<iframe width="986" height="600" src="https://www.youtube.com/embed/UljSoAl_1eI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen ></iframe>
+
+        </div>
+  
+</div>
+
+</section>
+
+
+ 
+  <div style="padding-top:40px;" >
+
+
+<nav  class="container" style="color:black; margin-top:20px">
+   <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+      
+            </button>
+            
+      </div>
+ <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          
+
+</div>
+
+ <nav class="navbar navbar-default" role="navigation" style="width:1170px; margin:-10px -200px 0px -15px">
+   
+      <div class="navbar-header container-fluid btn-md btn-group-md"  >
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+          <span class="sr-only">Навигация</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+    </div>
+       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2" >
+  <ul class="nav nav-tabs navbar-nav" id="menu" role="tablist"  >
+    <li class=" active nav-item"><a  role="tab" data-toggle="pill"  data-toggle="tooltip" title="Узнать новое!">Солнце</a></li>
+    <li class="nav-item"><a href="#merc" role="tab" data-toggle="pill"  data-toggle="tooltip" title="Узнать новое!">Меркурий</a></li>
+    <li class=" nav-item"><a href="#venera" role="tab" data-toggle="pill"  data-toggle="tooltip" title="Узнать новое!">Венера</a></li>
+    <li class="nav-item"><a href="#earth" role="tab" data-toggle="pill"  data-toggle="tooltip" title="Узнать новое!">Земля</a></li>
+    <li class=" nav-item"><a href="#mars" role="tab" data-toggle="pill"  data-toggle="tooltip" title="Узнать новое!">Марс</a></li>
+    <li class="nav-item"><a href="#upiter" role="tab" data-toggle="pill"  data-toggle="tooltip" title="Узнать новое!">Юпитер</a></li>
+    <li class="nav-item"><a href="#saturn" role="tab" data-toggle="pill"  data-toggle="tooltip" title="Узнать новое!">Сатур</a></li>
+    <li class="nav-item"><a href="#uran" role="tab" data-toggle="pill"  data-toggle="tooltip" title="Узнать новое!">Уран</a></li>
+    <li class="nav-item"><a href="#neptun" role="tab" data-toggle="pill"  data-toggle="tooltip" title="Узнать новое!">Нептун</a></li>
+    
+  </ul>
+</div>
+
+
+</nav>
+
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane  fade in active" id="sun"><div class="planet"><img class="slide2 right" src="sun.jpg"><blockquote>Снимок Солнца сделанный в линии H-альфа</blockquote>
+Стоит отметить, что Солнце, не самая большая и горячая звезда во Вселенной, но для нас оно занимает особое место. Так как без него не смогла бы существовать не сама Солнечная система, ни планеты, входящие в ее состав, ни существа, живущие на этих планетах. В недрах Солнца происходят ядерные реакции по обращению водорода в гелий, выделяющие огромное количество тепла – на поверхности Солнца около 5000°С. Несмотря на мощнейшую гравитацию, Солнце покидают некоторые заряженные частицы, которые называются солнечный ветер. Магнитное поле Земли отражает их, а в верхних слоях атмосферы на полюсах нашей планеты, все же можно наблюдать солнечный ветер в виде северных сияний.</div>
+</div>
+
+    <div role="tabpanel" class="tab-pane fade" id="merc"><div class="planet"><img class="slide2 right" src="merc.jpg" ><blockquote>Меркурий, снимок зонда MESSENGER</blockquote>
+Самый маленький среди планет, у него нет спутников, полный виток вокруг Солнца Меркурий делает за пол своих суток. Он имеет огромное металлическое ядро и сравнительно небольшой слой коры, покрытый огромным количеством кратеров. У Меркурия невероятно разряженная атмосфера, она практически отсутствует</div></div>
+
+    <div role="tabpanel" class="tab-pane  fade in" id="venera"><div class="planet"><img class="slide2 right" src="venera.jpg"><blockquote>Венера, снимок космического аппарата MESSENGER</blockquote>
+Славится высокой температурой поверхности – около 480°С этот факт придает Венере статус самой горячей планеты. У Венеры очень плотная атмосфера, которая состоит практически из углекислого газа. Также в атмосфере этой планеты наблюдались грозы, по интенсивности, превосходящие Земные. У Венеры нет спутников</div></div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="earth"><div class="planet"><img class="slide2 right" src="earth.jpg"><blockquote>Земля, вид с Луны</blockquote>
+Единственная планета, имеющая океан, который составляет порядка 70% ее поверхности. Также на Земле уникальная атмосфера с высоким содержанием кислорода, его процент выше, чем в атмосфере любой другой планеты.  Луна, самый крупный из спутников планет земной группы, в которую, помимо Земли, входят уже описанные Меркурий и  Венера, а также Марс</div></div>
+      
+ <div role="tabpanel" class="tab-pane fade" id="mars"><div class="planet"><img class="slide2 right" src="mars.jpg"><blockquote>Марс, снимок зонда MESSENGER</blockquote>
+Планета, завершающая земную группу. Интерес представляет поверхность Марса – наличие русел указывает на существование воды на планете в прошлом,  а вулкан Олимп – самый высокий в Солнечной системе. Поверхность Марса имеет красный оттенок из-за высокого содержания оксида железа в своем составе.  У Марса два спутника – Фобос и Деймос
+</div></div>
+    <div role="tabpanel" class="tab-pane  fade in" id="upiter"><div class="planet"><img class="slide2 right" src="upiter.jpg"><blockquote>Юпитер, фотография Вояджера 1</blockquote>
+Самый огромный в Солнечной системе, с самым большим количеством спутников. Наиболее известные из них —  галилеевы спутники. Интересным фактом является Красное пятно на поверхности Юпитера, ученые предполагают, что это огромный вихрь в его атмосфере, имеющий скорость более 300 км/ч. Он вращается уже несколько столетий
+</div></div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="saturn"><div class="planet"><img class="slide2 right" src="saturn.jpg"><blockquote>Сатурн, мозаика из 8 изображений космического аппарата Кассини</blockquote>
+Занимает вторую позицию по своему объему и количеству спутников среди всех планет, а положению относительно Солнца — среди планет-гигантов. Первым по этим показателям является Юпитер. Помимо них к планетам-гигантам относятся Уран и Нептун. Особенность Сатурна составляет его система колец, которую можно отчетливо наблюдать в обычный телескоп
+
+</div></div>
+    <div role="tabpanel" class="tab-pane  fade in" id="uran"><div class="planet"><img class="slide2 right" src="uran.jpg"><blockquote>Уран, ИК снимок телескопа КЕК</blockquote>
+Так же, как и Венера, планета с обратным вращением, особенность его движения заключается и в положении по отношению к своей орбите – он наклонен на 98°. Уран — самая холодная планета в Солнечной системе, его температурный минимум составил -225°С. Уран владеет 27 спутниками
+
+</div></div>
+
+
+    <div role="tabpanel" class="tab-pane fade" id="neptun"><div class="planet"><img class="slide2 right" src="neptun.jpg"><blockquote>Нептун, фотография Вояджера -2</blockquote>
+По своему составу Нептун схож с Ураном, огромное количество льда в составе этих планет дает основание называть их «ледяные гиганты».  Его атмосфера, как и атмосфера всех планет-гигантов  — это водород и гелий, а наличие в ее составе метана объясняет синий цвет планеты. Нептун – планета с самыми сильными ветрами, их скорость достигает 700 км/ч. У Нептуна 13 спутников
+</div></div>
+
+  </div>
+
+  
+
+</nav>
+<a href="#" id="up" style="color:black">
+<button type="button"  class="btn btn-default btn-lg " style="margin-bottom: 30px; margin-left: 45%; margin-right: 50%; margin-top: 20px">
+
+            
+            <span class="glyphicon glyphicon-chevron-up"  > </span> Подняться вверх
+           <script type="text/javascript"></script>
+</button>
+</a>
+
+<div class="footer-copyright text-center py-3" style="color:white">© 2018 Христова Анастасия ПЗПИ-17-4 
+Человеко-машинное взаимодействие
+
+</div>
+</div>
+</div>
+
+</body>
+</html> 
